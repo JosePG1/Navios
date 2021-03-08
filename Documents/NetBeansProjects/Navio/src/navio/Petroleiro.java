@@ -11,7 +11,7 @@ package navio;
  */
 public class Petroleiro extends Navio {
     
-     Float capacidadeCarga;
+     private Float capacidadeCarga;
 
     public Petroleiro(String nome, String matriculaNavio) {
         super(nome, matriculaNavio);

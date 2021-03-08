@@ -11,7 +11,7 @@ package navio;
  */
 public class PortaContentores extends Navio{
     
-    public int numbMaxContentores;
+    private int numbMaxContentores;
 
     public PortaContentores(String nome, String matriculaNavio) {
         super(nome, matriculaNavio);

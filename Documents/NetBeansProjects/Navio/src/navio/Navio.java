@@ -11,9 +11,9 @@ package navio;
  */
 public class Navio {
     
-   public String matriculaNavio;
-   public String nome;
-   public Float comprimento;
+   private String matriculaNavio;
+   private String nome;
+   private Float comprimento;
    
    /** Construtor Navio */
    public Navio(String nome,String matriculaNavio){
