@@ -10,6 +10,11 @@ package navio;
  * @author Pedro
  */
 public class Navio {
+    
+   public String matriculaNavio;
+   public String nome;
+   public Float comprimento;
+    
 
     /**
      * @param args the command line arguments
