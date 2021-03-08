@@ -9,13 +9,12 @@ package navio;
  *
  * @author Pedro
  */
-public class PortaContentores extends Navio{
+public class Petroleiro extends Navio {
     
-    public int numbMaxContentores;
+     Float capacidadeCarga;
 
-    public PortaContentores(String nome, String matriculaNavio) {
+    public Petroleiro(String nome, String matriculaNavio) {
         super(nome, matriculaNavio);
-        
     }
     
     
