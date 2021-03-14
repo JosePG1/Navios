@@ -14,6 +14,16 @@ public class Navio {
    public String matriculaNavio;
    public String nome;
    public Float comprimento;
+   
+   /** Construtor Navio */
+   public Navio(String nome,String matriculaNavio){
+       this.nome = nome;
+       this.matriculaNavio = matriculaNavio;
+       
+       
+       
+       
+   }
     
 
     /**
