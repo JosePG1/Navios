@@ -17,28 +17,50 @@ public class Navio {
    
    
    
-   /** Construtor Navio */
+   /** Construtor Navio
+     * @param nome
+     * @param matriculaNavio */
    public Navio(String nome,String matriculaNavio){
        this.nome = nome;
        this.matriculaNavio = matriculaNavio;
    }
 
+    /**
+     *
+     * @return
+     */
     public String getNome() {
         return nome;
     }
 
+    /**
+     *
+     * @param nome
+     */
     public void setNome(String nome) {
         this.nome = nome;
     }
 
+    /**
+     *
+     * @return
+     */
     public Float getComprimento() {
         return comprimento;
     }
 
+    /**
+     *
+     * @param comprimento
+     */
     public void setComprimento(Float comprimento) {
         this.comprimento = comprimento;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getMatriculaNavio() {
         return matriculaNavio;
     }
