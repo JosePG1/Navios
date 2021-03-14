@@ -1,22 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package navio;
 
 /**
  *
  * @author Pedro
  */
-public class PortaContentores extends Navio{
+ class PortaContentores extends Navio{
     
     private int numbMaxContentores;
 
-    public PortaContentores(String nome, String matriculaNavio) {
-        super(nome, matriculaNavio);
+    public PortaContentores(String nome, String matriculaNavio , int numbMaxContentores ) {
+        super(nome, matriculaNavio); 
         
+       this.numbMaxContentores = numbMaxContentores;
     }
+
+    public int getNumbMaxContentores() {
+        return numbMaxContentores;
+    }
+
+    public void setNumbMaxContentores(int numbMaxContentores) {
+        this.numbMaxContentores = numbMaxContentores;
+    }
+    
+    
+    
+    
     
     
 }

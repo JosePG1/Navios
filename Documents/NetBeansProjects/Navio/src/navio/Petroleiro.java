@@ -16,6 +16,14 @@ public class Petroleiro extends Navio {
     public Petroleiro(String nome, String matriculaNavio) {
         super(nome, matriculaNavio);
     }
+
+    public Float getCapacidadeCarga() {
+        return capacidadeCarga;
+    }
+
+    public void setCapacidadeCarga(Float capacidadeCarga) {
+        this.capacidadeCarga = capacidadeCarga;
+    }
     
     
 }
