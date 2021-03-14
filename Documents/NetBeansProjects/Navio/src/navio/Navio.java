@@ -15,22 +15,58 @@ public class Navio {
    private String nome;
    private Float comprimento;
    
-   /** Construtor Navio */
+   
+   
+   /** Construtor Navio
+     * @param nome
+     * @param matriculaNavio */
    public Navio(String nome,String matriculaNavio){
        this.nome = nome;
        this.matriculaNavio = matriculaNavio;
-       
-       
-       
-       
    }
-    
 
     /**
-     * @param args the command line arguments
+     *
+     * @return
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public String getNome() {
+        return nome;
     }
+
+    /**
+     *
+     * @param nome
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Float getComprimento() {
+        return comprimento;
+    }
+
+    /**
+     *
+     * @param comprimento
+     */
+    public void setComprimento(Float comprimento) {
+        this.comprimento = comprimento;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public String getMatriculaNavio() {
+        return matriculaNavio;
+    }
+    
+   
+
+    
     
 }

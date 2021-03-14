@@ -11,10 +11,31 @@ package navio;
  */
 public class Petroleiro extends Navio {
     
-     private Float capacidadeCarga;
+     private int capacidadeCarga;
 
+    /**
+     *Construtor Petroleiro que recebe os seguintes parametros
+     * @param nome
+     * @param matriculaNavio
+     */
     public Petroleiro(String nome, String matriculaNavio) {
         super(nome, matriculaNavio);
+    }
+
+    /**
+     *
+     * @return
+     */
+    public int getCapacidadeCarga() {
+        return capacidadeCarga;
+    }
+
+    /**
+     *
+     * @param capacidadeCarga
+     */
+    public void setCapacidadeCarga(int capacidadeCarga) {
+        this.capacidadeCarga = capacidadeCarga;
     }
     
     
